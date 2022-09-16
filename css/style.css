@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap");
+
+@font-face {
+	font-family: "Motserrat";
+	src: url("../fonts/montserrat-black-italic.woff2") format("woff2"),
+		url("../fonts/montserrat-black-italic.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Motserrat";
+	src: url("../fonts/montserrat-bold.woff2") format("woff2"), url("../fonts/montserrat-bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Motserrat";
+	src: url("../fonts/montserrat-regular.woff2") format("woff2"),
+		url("../fonts/montserrat-regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+body {
+	font-family: "Motserrat", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: rgb(48, 167, 151);
+}
+
+a {
+	font-family: "Noto Sans", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: orange;
+	text-align: left;
+}
+
+a.link-first {
+	font-family: "Noto Sans", sans-serif;
+	font-weight: 900;
+	font-style: italic;
+	color: rgb(197, 231, 29);
+}
+
+.title {
+	font-family: "Noto Sans", sans-serif;
+	font-weight: 500;
+	font-size: 50px;
+	font-style: italic;
+	color: rebeccapurple;
+	text-align: center;
+	text-shadow: 20px 7px 5px rgb(0, 0, 0, 0.3);
+}
+
+.text-first,
+.story {
+	font-family: "Motserrat", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: rgb(142, 35, 85);
+	text-align: justify;
+	text-decoration: underline;
+	margin-top: 36px;
+}
+
+div.real-story p {
+	font-family: "Motserrat", sans-serif;
+	font-weight: 900;
+	font-style: italic;
+	color: coral;
+	text-align: right;
+	text-transform: lowercase;
+	text-decoration: overline;
+	margin: 20px 20px;
+}
+
+.don-sil-fighter {
+	padding: 45px;
+	width: 400px;
+	text-align: justify;
+	text-transform: uppercase;
+	text-decoration: line-through;
+}
+
+.other-acrots {
+	text-align: center;
+	text-indent: 20px;
+	white-space: normal;
+	word-spacing: 30px;
+}
+
+.end + p {
+	color: pink;
+}
